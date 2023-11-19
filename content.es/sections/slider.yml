@@ -1,0 +1,22 @@
+id: slider
+anchor: Fotos
+more:
+  padding_hide: true
+rows:
+- type: columns
+  design:
+    num: 1
+    gap: 0
+    hide_radius: true
+    slider: true
+    interval: 5
+  items:
+  - bg: clinica-pie-lopez-amo-podologo-murcia.jpg
+  - bg: clinica-dental-lopez-amo-odontologia-murcia.jpg
+  - bg: clinica-lopez-del-amo-podologia-odontologia-murcia.jpg
+  - bg: clinica-lopez-del-amo-odontologia-murcia.jpg
+  - bg: clinica-de-podologia-lopez-del-amo-en-murcia.jpg
+  - bg: clinica-dental-lopez-del-amo-odontologia-murcia.jpg
+  - bg: clinica-del-pie-lopez-del-amo-podologia-en-murcia.jpg
+  - bg: clinica-lopez-del-amo-dentista-murcia.jpg
+  - bg: clinica-lopez-del-amo-murcia.jpg

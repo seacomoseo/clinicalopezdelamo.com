@@ -1,0 +1,11 @@
+id: header
+title: Clínica López del Amo
+subtitle: Podología y Odontología en Murcia
+color: white
+image: logo.svg
+description: |
+  [btn icon-youtube Vídeo](#video)
+more:
+  align: center
+  image_min: 10
+  image_max: 18
