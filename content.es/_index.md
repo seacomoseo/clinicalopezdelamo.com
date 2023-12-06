@@ -6,11 +6,8 @@ description: Clínica de Podología y Odontología en Murcia con servicios de �
 image: icon.png
 draft: false
 noindex: false
-menu:
-  hide: true
 sections:
 - file: header
-- file: slider
   modals:
   - video
 - file: servicios
