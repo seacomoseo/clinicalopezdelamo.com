@@ -1,7 +1,7 @@
 logo: logo.svg
 color: white
 screen_sticky: 800
-size_sticky: ''
+size_sticky: lg
 articles_sticky: false
 transparent: false
 hide_anchors: true
@@ -22,7 +22,7 @@ normal:
 - link: https://podologo.clinicalopezdelamo.com/
   label: Podología
   anchor: Clínica del Pie y Podólogo en Murcia
-- link: https://dental.clinicalopezdelamo.com/
+- link: http://clinicadentallopezdelamo.com/
   label: Odontología
   anchor: Clinica Dental y Odontología en Murcia
 - link: /#contacto
