@@ -1,35 +1,15 @@
 baseURL: https://clinicalopezdelamo.com
-Paginate: 24
 buildFuture: false
 theme: [sansoul]
 params:
-  git_url: https://github.com/seacomoseo/clinicalopezdelamo.com
-  netlify_name: lopezdelamo
+  domain: clinicalopezdelamo.com
+  name: lopezdelamo
   netlify_id: f4f48ef2-5e11-494a-a9b5-8d274853555b
-  hook: NjMwMmMxNzZlYjUxYzc2ZGZmZDA2MGI0
-  drive_link: https://drive.google.com/file/d/1fDnF7jPZWlbYoGIIrbxjJz9OPFBDuN87
+  netlify_hook: NjMwMmMxNzZlYjUxYzc2ZGZmZDA2MGI0
+  cloudflare_id:
+  drive_url: https://drive.google.com/file/d/1fDnF7jPZWlbYoGIIrbxjJz9OPFBDuN87
   drive_mails: andres.lopezdelamo@gmail.com
-defaultContentLanguage: es
-disableLanguages: [en,fr]
+  owner: seacomoseo
 languages:
   es:
-    paginatePath: pagina
-    permalinks:
-      page:
-        pages: :slug
-        blog: :slug
-        events: evento/:year/:month/:day/:slug
-        products: producto/:slug
-        categories: categoria/:slug
-        tags: etiqueta/:slug
-        authors: autor/:slug
-        custom: :slug
-      section:
-        pages: paginas
-        blog: blog
-        events: eventos
-        products: productos
-        categories: categorias
-        tags: etiquetas
-        authors: autores
-        custom: personalizadas
+    disabled: false

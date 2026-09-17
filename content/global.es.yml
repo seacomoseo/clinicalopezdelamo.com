@@ -1,0 +1,31 @@
+menu:
+  img: /u/base/logo.svg
+  items:
+  - label: Inicio
+    url: /
+  - url: /#servicios
+    label: Servicios
+  - url: https://podologo.clinicalopezdelamo.com/
+    label: Podología
+    anchor: Clínica del Pie y Podólogo en Murcia
+  - url: https://clinicadentallopezdelamo.com/
+    label: Odontología
+    anchor: Clinica Dental y Odontología en Murcia
+  - url: /#contacto
+    label: Contacto
+    btn: cta
+callnows: []
+footer:
+  space: 2
+  dots:
+  - url: https://www.instagram.com/clinicalopezdelamo/
+  - url: https://www.facebook.com/clinicalopezdelamo/
+  - url: https://x.com/clopezdelamo
+  - url: https://www.youtube.com/channel/UCpJMkSZyWbE-IR_hcryv6Lg
+  md: |
+    - ::copyright::        {{< internal-link index >}}
+    - ::balance::          {{< internal-link legal >}}
+    - ::encrypted::        {{< internal-link privacy >}}
+    - ::cookie::           {{< internal-link cookies >}}
+    - ::brand:seacomoseo:: {{< i18n web_design >}} [seacomoseo.com](https://seacomoseo.com/)
+    {.list-inline}

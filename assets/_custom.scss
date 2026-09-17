@@ -1,0 +1,80 @@
+@use 'css/variables';
+
+
+// Menu
+
+.body-top:not(#aux) {
+  --menu-py: .75em;
+  @media (min-width: variables.$viewport-lg) {
+    --menu-py: 0em;
+  }
+}
+
+
+// Hero
+
+#body-home #hero {
+  overflow: visible;
+  z-index: 1;
+  .container > {
+    .box--1 {
+      position: initial;
+      font-size: .75em;
+      padding: 1em 3em 1em 10%;
+      margin: 1em 0 0;
+      text-indent: 0;
+      z-index: 1;
+      animation: show-from .5s 0.25s both;
+      h1 {
+        font-size: 1.2em;
+      }
+    }
+    .box--2 {
+      overflow: hidden;
+      .slider__arrows--float .slider__arrow {
+        height: 100%;
+      }
+      .slider__pips {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+      }
+    }
+    .box--3 {
+      position: absolute;
+      top: 100%;
+      .btns {
+        animation: show-from .5s 0s both;
+      }
+    }
+  }
+  @media (min-width: variables.$viewport-lg) {
+    .container > {
+      .box--1 {
+        position: absolute;
+        top: 5em;
+        left: 0;
+        font-size: 1em;
+        border-radius: 0 1.25em 1.25em 0;
+        width: calc(25em + 10%);
+        background-color: rgba(255, 255, 255, 0.75);
+      }
+      .box--2 {
+        .slider__arrows--float .slider__arrow {
+          height: calc(100% - 3.2em);
+        }
+      }
+      .box--3 {
+        top: auto;
+      }
+    }
+  }
+}
+
+
+// Sections
+
+.container > h2.box__title {
+  color: variables.$cta;
+}

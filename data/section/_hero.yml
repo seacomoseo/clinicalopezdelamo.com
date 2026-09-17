@@ -1,0 +1,37 @@
+name: Hero
+id: hero
+color: white
+size: fluid
+ph: true
+box:
+  align: center
+boxes:
+- title: Clínica López del Amo
+  sub: Podología y Odontología en Murcia
+  align: left
+- box:
+    gap: 0
+    hide_radius: true
+    ratio: 16/9
+    slider: true
+    arrows: float
+    time: 5
+  boxes:
+  - bi: /u/clinica-pie-lopez-amo-podologo-murcia.jpg
+  - bi: /u/clinica-dental-lopez-amo-odontologia-murcia.jpg
+  - bi: /u/clinica-lopez-del-amo-podologia-odontologia-murcia.jpg
+  - bi: /u/clinica-lopez-del-amo-odontologia-murcia.jpg
+  - bi: /u/clinica-de-podologia-lopez-del-amo-en-murcia.jpg
+  - bi: /u/clinica-dental-lopez-del-amo-odontologia-murcia.jpg
+  - bi: /u/clinica-del-pie-lopez-del-amo-podologia-en-murcia.jpg
+  - bi: /u/clinica-lopez-del-amo-dentista-murcia.jpg
+  - bi: /u/clinica-lopez-del-amo-murcia.jpg
+- md: |
+    [[::brand:youtube:: Vídeo]](#video)
+modals:
+- id: video
+  hanchor: Vídeo
+  img: https://youtu.be/5_rrb2BGmf8
+  size: lg
+  ph: true
+  ratio: 16/9

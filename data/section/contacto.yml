@@ -1,0 +1,66 @@
+name: Contacto
+id: Contacto
+color: white
+size: sm
+menu_btn: cta
+boxes:
+- title: Contacto
+- box:
+    cols: 2
+    gap_vs: 3
+  boxes:
+
+  - links:
+    - type: h3
+      label: Móvil Podología
+    - type: phone
+      label: 697 63 59 59
+      icon: mobile_2
+      full: true
+    - type: whatsapp
+      label: 697 63 59 59
+      icon: brand:whatsapp-o
+      full: true
+
+  - links:
+    - type: h3
+      label: Móvil Odontología
+    - type: phone
+      label: 601 24 53 32
+      icon: mobile_2
+      full: true
+    - type: whatsapp
+      label: 601 24 53 32
+      icon: brand:whatsapp-o
+      full: true
+
+  - links:
+    - type: h3
+      label: Murcia
+    - type: phone
+      label: 968 22 07 27
+      btn: main
+      full: true
+    - type: address
+      label: Calle Jaime I el Conquistador, 11, 2B, 30008 Murcia
+      anchor: Clínica López del Amo, Calle Jaime I el Conquistador, 11, 2B, 30008 Murcia
+      btn: light
+
+  - links:
+    - type: h3
+      label: Torreagüera
+    - type: phone
+      label: 968 82 19 58
+      btn: main
+      full: true
+    - type: address
+      label: Calle Mayor, 42, 1B, 30579 Torreagüera, Murcia
+      anchor: Clínica López del Amo, Calle Mayor, 42, 1B, 30579 Torreagüera, Murcia
+      btn: light
+
+  - fit: 2
+    geos:
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.056023,37.979492]}'
+    - type: point
+      geo: '{"type":"Point","coordinates":[-1.131834,37.989242]}'

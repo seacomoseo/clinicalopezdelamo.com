@@ -1,0 +1,15 @@
+name: Servicios
+color: light
+pt: 7
+boxes:
+- title: Servicios
+  box:
+    color: white
+    cols: 4
+  boxes:
+  - title: Podología
+    url: https://podologo.clinicalopezdelamo.com/
+    icon: footprint
+  - title: Odontología
+    url: https://clinicadentallopezdelamo.com/
+    icon: dentistry
